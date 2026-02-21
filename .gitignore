@@ -1,0 +1,36 @@
+# Learning materials (keep local only)
+SentimentScope_learning.ipynb
+
+# Dataset files
+aclImdb/
+aclImdb_v1.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files (optional - uncomment if models are too large)
+# *.pth
+# *.pt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
