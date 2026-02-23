@@ -128,7 +128,7 @@ The model demonstrates strong generalization with minimal overfitting:
 
 ## 📚 Acknowledgments
 
-This project was completed as part of the **AWS AI Scientist Nanodegree Program**. The project structure, architecture design, and starter code were provided by AWS/Udacity. My contributions include implementing the TODO sections, training the model, and achieving the reported performance metrics.
+This project was completed as part of the **AWS AI Scientist Nanodegree Program** by AWS/Udacity.
 
 ## 📧 Contact
 
