@@ -126,13 +126,9 @@ The model demonstrates strong generalization with minimal overfitting:
 - **Pandas**: Data manipulation
 - **NumPy**: Numerical operations
 
-## 📝 License
+## 📚 Acknowledgments
 
-This project is open source and available for educational purposes.
-
-## 🤝 Contributing
-
-This is a personal learning project, but suggestions and feedback are welcome!
+This project was completed as part of the **AWS AI Scientist Nanodegree Program**. The project structure, architecture design, and starter code were provided by AWS/Udacity. My contributions include implementing the TODO sections, training the model, and achieving the reported performance metrics.
 
 ## 📧 Contact
 
@@ -140,4 +136,4 @@ Feel free to reach out for questions or collaboration opportunities.
 
 ---
 
-**Note**: This is an educational project demonstrating transformer architecture implementation from scratch. For production use cases, consider using pretrained models like BERT, RoBERTa, or DistilBERT.
+**Note**: This is an educational project demonstrating transformer architecture for sentiment analysis. The implementation showcases practical application of deep learning concepts in NLP.
