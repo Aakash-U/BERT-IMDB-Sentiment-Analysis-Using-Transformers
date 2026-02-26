@@ -2,18 +2,18 @@
 
 A custom transformer model built from scratch for binary sentiment classification on the IMDB movie review dataset.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a GPT-style transformer architecture for sentiment analysis, achieving **76.28% accuracy** on the IMDB test set. The model is trained entirely from scratch without using pretrained weights.
 
-## 📊 Performance
+## Performance
 
 - **Test Accuracy**: 76.28%
 - **Validation Accuracy**: 77.12%
 - **Training Time**: 3 epochs
 - **Dataset**: 50,000 IMDB movie reviews
 
-## 🏗️ Architecture
+## Architecture
 
 - **Model Type**: Custom GPT-style Transformer
 - **Layers**: 4 transformer blocks
@@ -31,12 +31,12 @@ This project implements a GPT-style transformer architecture for sentiment analy
 4. **Mean Pooling**: Aggregates token embeddings for classification
 5. **Binary Classifier**: Final linear layer for sentiment prediction
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
 ```bash
-pip install torch transformers pandas matplotlib
+pip install -r requirements.txt
 ```
 
 ### Training
@@ -73,16 +73,17 @@ with torch.no_grad():
     sentiment = "Positive" if prediction == 1 else "Negative"
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── SentimentScope.ipynb          # Main notebook (clean, portfolio version)
 ├── sentiment_model.pth           # Trained model weights
+├── requirements.txt              # Python dependencies
 ├── .gitignore                    # Git ignore rules
 └── README.md                     # This file
 ```
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Data Processing
 - **Tokenization**: BERT WordPiece tokenizer
@@ -101,38 +102,40 @@ with torch.no_grad():
 - **Total Parameters**: ~2.5M (estimated)
 - **Vocabulary Size**: 30,522 (BERT vocab)
 
-## 📈 Results Analysis
+## Results Analysis
 
 The model demonstrates strong generalization with minimal overfitting:
 - Validation and test accuracy within 1% (77.12% vs 76.28%)
 - Consistent loss reduction across epochs
 - Efficient training with only 3 epochs needed
 
-## 🔮 Future Improvements
+## Future Improvements
 
-- [ ] Increase model capacity (more layers, larger embeddings)
-- [ ] Implement learning rate scheduling
-- [ ] Add gradient clipping for stability
-- [ ] Experiment with different pooling strategies (CLS token, max pooling)
-- [ ] Fine-tune pretrained BERT/RoBERTa for comparison
-- [ ] Implement attention visualization
-- [ ] Add model interpretability (LIME/SHAP)
-- [ ] Extend to multi-class sentiment (1-5 stars)
+- Increase model capacity (more layers, larger embeddings)
+- Implement learning rate scheduling
+- Add gradient clipping for stability
+- Experiment with different pooling strategies (CLS token, max pooling)
+- Fine-tune pretrained BERT/RoBERTa for comparison
+- Implement attention visualization
+- Add model interpretability (LIME/SHAP)
+- Extend to multi-class sentiment (1-5 stars)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **PyTorch**: Deep learning framework
 - **Transformers (Hugging Face)**: Tokenization
 - **Pandas**: Data manipulation
 - **NumPy**: Numerical operations
 
-## 📚 Acknowledgments
+## Acknowledgments
 
 This project was completed as part of the **AWS AI Scientist Nanodegree Program** by AWS/Udacity.
 
-## 📧 Contact
+## Author
 
-Feel free to reach out for questions or collaboration opportunities.
+**Aakash Upadhyay**
+- GitHub: [@Aakash-U](https://github.com/Aakash-U)
+- LinkedIn: [Aakash Upadhyay](https://www.linkedin.com/in/aakash-upadhyay-524347137/)
 
 ---
 
